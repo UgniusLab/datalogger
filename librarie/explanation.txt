@@ -1,0 +1,4 @@
+These file are libraries for micropython controler.
+----------------------------------------------------------------------
+you need to instal these files into  your micro controler chip memory.
+name them exacly like this ("File name".py) "File name" =sdcard, etc.
