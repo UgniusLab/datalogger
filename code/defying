@@ -1,0 +1,23 @@
+menu_items = [] # define menu_items as  array
+menu_items.append("Live measurement") # append menu_items with "Live measurement"
+menu_items.append("Sampling Time") # append menu_items with "Samling Time"
+menu_items.append("Delete") # append menu_items with "Delete"
+menu_items.append("Run record") # append menu_items with "Run record"
+menu_items.append("net config") # append menu_items with "net config"
+current_state = "Menu" # define current_state as "Menu" it shows that cerrent_state is menu at beginning
+
+active_item = 1 # define active_item as international variable and it is equal to = 1, this variable indicates menu possition.
+shift= 0 # define shift  as international variable and it is equal to = 0, this variable is for making a moving menu
+A_BP_state = 0  # defines button A as international.
+B_BP_state = 0  # defines button B as international.
+C_BP_state = 0  # defines button C as international.
+short_list = 0 # define short_list  as international variable and it is equal to = 0, this variable is for making a moving menu
+data = [] # define data as array
+count = 0 # define data as international variable.
+measurement = 0 # define measurement as international variable.
+
+a = 0 # define a as international variable.
+sampling_times = [5, 30, 60] #define sampling_times as array and add sampling times variables.
+sampling_time = sampling_times[0] # equales sampling_time to first digit of sampling_time.
+
+time_ = rtc.datetime  
