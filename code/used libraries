@@ -1,7 +1,0 @@
-from machine import Pin, I2C, Timer, SPI, SoftSPI  #Pins, timers and importing some protocols to comunicate.
-import os #operating systems module
-import sdcard	 #sdcard library 
-import time # time module
-import ssd1306 # oled screen library
-from dht import DHT11 
-from pcf8523 import PCF8523 # RTC library
