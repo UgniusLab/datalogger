@@ -90,30 +90,6 @@ def request():
     request_pin.value(0)
     
 clock_pin.irq(clock_callback, Pin.IRQ_RISING)     
-
-# def Live_measurement():
-#     oled.fill(0)
-#     oled.text(str(measurement),50,0,1)
-#     oled.text((str(time.localtime(time_)[3]))+':'+(str(time.localtime(time_)[4]))+':'+(str(time.localtime(time_)[5])),35,10,1)
-#     oled.text("btn_B to exit",15,20,1)
-#     oled.show()
-#     
-# def Run_record:
-#     for i in range(10):
-#         oled.fill(0)
-#         oled.text(".",i,0,1)
-#         oled.text(".",i,10,1)
-#         oled.text(".",i,20,1)
-#         oled.text("recording data",15,0,1)
-#         oled.text("to .cvs file",15,10,1)
-#         oled.text("bnt_b to exit",15,20,1)
-#         oled.show()
-#     logFile.write(str(measurement))
-#     logFile.write(",")
-#     logFile.write((str(time.localtime(time_)[0]))+'-'+(str(time.localtime(time_)[1]))+'-'+(str(time.localtime(time_)[2]))+','+(str(time.localtime(time_)[3]))+':'+(str(time.localtime(time_)[4]))+':'+(str(time.localtime(time_)[5])+"\n"))
-#     logFile.flush()
-#     time.sleep_ms(100)
-    
 while True:
     
     start = time.ticks_ms()
