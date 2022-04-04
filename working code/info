@@ -1,0 +1,4 @@
+There are  two programs.
+
+SDCard program is a working program but has a "memory error". Data is logged into sd and micropython
+device but compiler shows error.
