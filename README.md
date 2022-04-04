@@ -1,4 +1,4 @@
-# DataLogger for digital Mitutoyo reading.
+# DataLogger for digital Mitutoyo comparator.
  
 this project is build with 3 adafruit devices:
 
